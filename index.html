@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="./style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,28 +23,24 @@
           <input type="text"
           class="form-control" name="city" id="city" aria-describedby="helpId" placeholder="">
           <a class="btn btn-primary btn-lg" id="btn" role="button">Search</a>
+          <div id="split"></div>
+          <div id="searchHistory"></div>
       </div>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-10" id="day">
         <div class="jumbotron">
           <h1 class="city"></h1>
           <div id="temperature"></div>
           <div id="humidity"></div>
           <div id="wind"></div>
           <div id="UV"></div>
-          <hr class="my-2">
-          <p></p>
-          
         </div>
         <p class="lead">5-Day Forecast</p>
-        <p class="lead" id="forecast"></p>
+        <div class="row justify-content-center w-auto" id="cardRow"></div>
       </div>
     </div>
-      <div class="container">
 
-        
-        
-      </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
