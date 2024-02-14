@@ -14,15 +14,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="body">
     <header>Weather Dashboard</header>
     <div class="row">
       <div class="col-sm-2">
         <div class="form-group">
           <label for="weather">Search A City</label>
-          <input type="text"
-          class="form-control" name="city" id="city" aria-describedby="helpId" placeholder="">
-          <a class="btn btn-primary btn-lg" id="btn" role="button">Search</a>
+          <input type="text" class="form-control" name="city" id="city" aria-describedby="helpId" placeholder="">
+          <div class="btn">        
+            <a class="btn btn-primary btn-lg" id="btn" role="button">Search</a>
+          </div>
           <div id="split"></div>
           <div id="searchHistory"></div>
       </div>

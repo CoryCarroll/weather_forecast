@@ -6,4 +6,4 @@ https://github.com/CoryCarroll/weathercheck
 
 https://corycarroll.github.io/weathercheck/
 
-![](./img\weatherscreenshot.png)
+![Weather Forecast](./img\weather_forecast.png)
